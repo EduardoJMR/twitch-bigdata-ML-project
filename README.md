@@ -1,5 +1,7 @@
 # Twitch Big Data Project
 
+#### In order to carry out this project, first, we are going to get a streaming flow of live chat messages. Then, we are going to parse every chat message to dismiss the useless ones (spam, bots, laughter, emotes…). Next, we will do a proper analysis of every message by parsing them and looking for good or bad words. Once the parsing is done, we will determine the nature of the message from the 3 possibilities: positive, negative or neutral. Finally, we will show on screen the statistics gathered from the analysis for every streaming content type.
+
 ## Setup Guide
 
 ### 1. Install NodeJS
